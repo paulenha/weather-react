@@ -96,8 +96,9 @@ export default function Weather() {
           href="https://https://github.com/paulenha/weather-react"
           target="_blank"
         >
-          coded by
-        </a>
+          {" "}
+          coded by{" "}
+        </a>{" "}
         Paula Silva
       </small>
     </div>

@@ -53,3 +53,7 @@
 .Weather .weather-forecast-temp-min {
   opacity: 0.5;
 }
+
+.container {
+  text-align: center;
+}
