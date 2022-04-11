@@ -95,6 +95,7 @@ export default function Weather() {
         <a
           href="https://https://github.com/paulenha/weather-react"
           target="_blank"
+          rel="noreferrer"
         >
           {" "}
           coded by{" "}
