@@ -91,7 +91,7 @@ export default function Weather() {
           </div>
         </div>
       </div>
-      <small>
+      <small className="name">
         <a
           href="https://https://github.com/paulenha/weather-react"
           target="_blank"
