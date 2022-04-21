@@ -7,6 +7,11 @@ body {
   font-family: arial, sans-serif;
 }
 
+small {
+  text-align: center;
+  display: block;
+}
+
 h1 {
   color: #ec6e4c;
   font-size: 40px;

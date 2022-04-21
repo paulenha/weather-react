@@ -91,17 +91,6 @@ export default function Weather() {
           </div>
         </div>
       </div>
-      <small className="name">
-        <a
-          href="https://https://github.com/paulenha/weather-react"
-          target="_blank"
-          rel="noreferrer"
-        >
-          {" "}
-          coded by{" "}
-        </a>{" "}
-        Paula Silva
-      </small>
     </div>
   );
 }
