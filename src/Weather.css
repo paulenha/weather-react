@@ -15,13 +15,13 @@
   height: 80px;
   width: 80px;
 }
-.Weather .weather-temperature strong {
+.Weather .temperature {
   color: #132743;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
 }
-.Weather .weather-temperature .units {
+.Weather .units {
   position: relative;
   font-size: 16px;
   top: -34px;
