@@ -1,7 +1,9 @@
 import React from "react";
 import "./Weather.css";
+import axios from "axios";
 
 export default function Weather() {
+  let apiKey = "481e368995b179f7b5471393b825546c";
   let weatherData = {
     temperature: 18,
     city: "Campbell",
