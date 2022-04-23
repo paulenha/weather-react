@@ -9,7 +9,11 @@ export default function App() {
         <Weather defaultCity="Inverness" />
 
         <footer>
-          <a href="https://github.com/paulenha/weather-react" target="_blank">
+          <a
+            href="https://github.com/paulenha/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
             coded by
           </a>{" "}
           Paula Silva
