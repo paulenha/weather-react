@@ -1,4 +1,5 @@
 import ActualDate from "./ActualDate";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
   return (
@@ -10,17 +11,15 @@ export default function WeatherInfo(props) {
         </li>
         <li className="text-capitalize">{props.data.description}</li>
       </ul>
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
-          <div className="d-flex weather-temperature">
-            <img
-              src={props.data.imgUrl}
-              alt={props.data.description}
-              className="float-left"
-            />
+          <div className="clearfix">
+            <div className="float-left">
+              <WeatherIcon code={props.data.icon} size={52} />
+            </div>
             <div className="float-left">
               <span className="temperature">
-                {Math.round(props.data.temperature)}{" "}
+                {Math.round(props.data.temperature)}
               </span>
               <span className="units">
                 <a href="/">°C</a> |<a href="/"> °F</a>
