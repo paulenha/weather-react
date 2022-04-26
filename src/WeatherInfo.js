@@ -1,4 +1,3 @@
-import react from "react";
 import ActualDate from "./ActualDate";
 
 export default function WeatherInfo(props) {
