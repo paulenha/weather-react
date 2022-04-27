@@ -7,21 +7,18 @@
   max-width: 600px;
 }
 
-.Weather .overview {
-  margin-bottom: 20px;
-}
 .Weather .weather-temperature img {
-  margin-right: 10px;
+  margin-right: 50px;
   height: 80px;
   width: 80px;
 }
 .Weather .temperature {
-  color: #132743;
+  color: #000000;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
 }
-.Weather .units {
+.Weather .unit {
   position: relative;
   font-size: 16px;
   top: -34px;
