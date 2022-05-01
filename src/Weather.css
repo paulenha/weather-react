@@ -7,10 +7,8 @@
   max-width: 600px;
 }
 
-.Weather .weather-temperature img {
-  margin-right: 50px;
-  height: 80px;
-  width: 80px;
+.Weather canvas {
+  margin: 10px auto;
 }
 .Weather .temperature {
   color: #000000;
@@ -22,15 +20,6 @@
   position: relative;
   font-size: 16px;
   top: -34px;
-}
-
-.Weather .weather-temperature .active {
-  color: #48484a;
-  cursor: default;
-}
-
-.Weather .weather-temperature .active:hover {
-  text-decoration: none;
 }
 
 .Weather .weather-forecast {

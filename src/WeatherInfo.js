@@ -1,3 +1,4 @@
+import React from "react";
 import ActualDate from "./ActualDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemp from "./WeatherTemp";
@@ -16,7 +17,7 @@ export default function WeatherInfo(props) {
         <div className="col-6">
           <div className="clearfix">
             <div className="float-left">
-              <WeatherIcon code={props.data.icon} size={52} />
+              <WeatherIcon code={props.data.icon} />
             </div>
             <div className="float-left">
               <WeatherTemp celsius={props.data.temperature} />
