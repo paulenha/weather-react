@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import "./Weather.css";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 
 export default function Weather(props) {
@@ -70,22 +71,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <div className="weather-forecast">
-          <div className="row">
-            <div className="col-2">
-              <div className="weather-forecast-date">Mon</div>
-              <img
-                src="http://openweathermap.org/img/wn/01n@2x.png"
-                alt=""
-                width="44"
-              />
-              <div className="weather-forecast-temp">
-                <span className="weather-forecast-temp-max">18°</span>
-                <span className="weather-forecast-temp-min">12°</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <WeatherForecast />
       </div>
     );
   } else {

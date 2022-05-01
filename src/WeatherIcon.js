@@ -25,7 +25,7 @@ export default function WeatherIcon(props) {
 
   const example = {
     icon: SkyconType.SHOWERS_DAY,
-    size: 60,
+    size: 50,
     animate: true,
     color: {
       sun: "darkorange",
