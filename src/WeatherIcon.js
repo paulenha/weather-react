@@ -29,7 +29,7 @@ export default function WeatherIcon(props) {
     animate: true,
     color: {
       sun: "darkorange",
-      light_cloud: "#5C636A",
+
       moon: "darkblue",
       rain: "darkblue",
     },
