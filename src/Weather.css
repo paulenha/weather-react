@@ -10,6 +10,7 @@
 .Weather canvas {
   margin: 10px auto;
 }
+
 .Weather .temperature {
   color: darkblue;
   font-size: 64px;
@@ -20,22 +21,4 @@
   position: relative;
   font-size: 16px;
   top: -34px;
-}
-
-.Weather .weather-forecast {
-  margin-top: 20px;
-  text-align: center;
-  color: #48484a;
-}
-
-.Weather .weather-forecast-date {
-  font-size: 16px;
-}
-
-.Weather .weather-forecast-temp {
-  font-size: 13;
-}
-
-.Weather .weather-forecast-temp-min {
-  opacity: 0.5;
 }

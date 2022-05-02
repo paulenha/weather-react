@@ -15,16 +15,6 @@ h1 {
   margin-bottom: 10;
 }
 
-small {
-  text-align: center;
-  display: block;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  color: #48484a;
-}
 li {
   color: #132743;
   font-size: 16px;
