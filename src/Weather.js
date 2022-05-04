@@ -60,14 +60,6 @@ export default function Weather(props) {
                   className="form-control btn btn-secondary shadow-sm w-100"
                 />
               </div>
-              <div className="col-3">
-                <button
-                  className="btn btn-dark shadow-sm w-100"
-                  id="current-location-button"
-                >
-                  Current
-                </button>
-              </div>
             </div>
           </div>
         </form>

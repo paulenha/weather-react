@@ -28,3 +28,8 @@ li {
 a {
   text-decoration: none;
 }
+
+ul {
+  margin: 10px 0;
+  padding: 0;
+}
